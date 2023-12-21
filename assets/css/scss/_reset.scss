@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: $font-1;
+    color: $color-1;
+}
+
+a {
+    text-decoration: none;
+    color: $color-2;
+
+    &:hover {
+        color: $color-3;
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-1;
+    font-weight: 700;
+}

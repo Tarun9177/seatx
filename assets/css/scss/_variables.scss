@@ -1,0 +1,27 @@
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+$color-1: #444444;
+$color-2: #ffb03b;
+$color-3: #ffc56e;
+$color-4: #433f39;
+$color-5: #848484;
+$color-6: #35322d;
+$color-7: #BEBEBE;
+$color-w: #ffffff;
+$color-b: #000000;
+$color-8: #7eb168;
+$color-9: #0059a3;
+//Color with Transparency
+$trans_color-1: rgba(26, 24, 22, 0.85);
+$trans_color-2: rgba(26, 24, 22, 0.45);
+$trans_color-3: rgba(26, 24, 22, 0.7);
+$trans_color-4: rgba(0, 0, 0, 0.1);
+// Text-shadow
+$text_shadow-1: 2px 3px 3px rgba(0, 0, 0, 0.7);
+$shadow-2: 0px 0px 25px rgba(0, 0, 0, 0.1);
+$shadow-3: 2px 4px 8px rgba(0, 0, 0, 0.5);
+//Fonts
+$font-1: 'Inter', sans-serif;
+
+.btn-1 {
+    @include btn-1;
+}

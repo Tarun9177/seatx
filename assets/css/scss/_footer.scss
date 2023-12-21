@@ -1,0 +1,34 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: $color-6;
+    color: $color-w;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+
+    h3 {
+        font-size: 36px;
+        font-weight: 700;
+        color: $color-2;
+        position: relative;
+        padding: 0;
+        margin: 0 0 15px 0;
+    }
+
+    p {
+        font-size: 15;
+        font-style: italic;
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+
+    .copyright {
+        margin: 0 0 5px 0;
+    }
+
+    .credits {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Events": [{
+            "event_name": "Football",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+            "event_name": "Vollyball",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+            "event_name": "Rugbi",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+            "event_name": "Dance",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+            "event_name": "concert",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+            "event_name": "Football",
+            "event_date": "26-05-2023",
+            "event_img": "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+.sign-up-container {
+    padding: 5rem 1rem 1rem;
+}
+
+.sign-in-container,
+.sign-up-container {
+    background: $color-7;
+    // font-family: $font-1;
+    .box-area {
+        width: 500px;
+        .left-box {
+            // position: relative;
+            .featured-image {
+                // position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        .header-text {
+            text-align: center;
+            font-weight: 700;
+            >a {
+                display: block;
+            }
+            img {
+                max-width: 70px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+        input {
+            font-size: 0.8rem;
+            outline: none;
+            box-shadow: none;
+            border: 1px solid $color-2;
+            border-radius: 2px;
+        }
+        label {
+            font-size: 0.85rem;
+        }
+        .forgot-pswrd {
+            font-size: 0.9rem;
+        }
+        .form-check {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding: 0;
+            &-input[type=checkbox] {
+                border-radius: 0;
+                padding: 0;
+                margin: 0;
+                &:checked {
+                    background-color: $color-6;
+                }
+            }
+        }
+        .lgn-btn {
+            padding: 10px;
+            &:active {
+                background: $color-1;
+            }
+        }
+        .ggl_lgn {
+            font-size: 1rem;
+            img {
+                width: 20px;
+            }
+        }
+    }
+}

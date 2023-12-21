@@ -1,0 +1,55 @@
+.attendee-page {
+    .section-box {
+        .spf-box {
+            input[type=radio] {
+                border-radius: 1rem !important;
+                border-color: $color-8;
+                margin-top: 6px;
+                font-size: 0.8rem;
+                &:checked{
+                    background-color: $color-8;
+                }
+            }
+        }
+
+        .ct-box {
+            .form-check {
+                display: flex;
+                gap: 8px;
+            }
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            form {
+                input {
+                    font-size: 0.8rem;
+                    border: 1px solid $color-2;
+                    border-radius: 0.2rem !important;
+                    outline: none;
+                    box-shadow: none;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+
+
+.atdetails-box {
+    p {
+        font-size: 0.85rem;
+        margin-bottom: 0.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0;
+    }
+}

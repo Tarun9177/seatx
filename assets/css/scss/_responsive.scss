@@ -1,0 +1,133 @@
+@media screen and (max-width:768px) {
+    #hero {
+        #heroCarousel {
+            .largeSearchContainer {
+                #largeSearch {
+                    width: min(100%, 650px) !important;
+                }
+
+                h2 {
+                    font-size: 35px !important;
+                }
+
+                #searchForm {
+                    input {
+                        font-size: 14px !important;
+                        padding: 10px 120px 10px 20px !important;
+                    }
+
+                    button {
+                        font-size: 14px !important;
+                        font-weight: 500 !important;
+                        padding: 0 15px !important;
+                    }
+                }
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                display: none !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:376px) {
+    #hero {
+        #heroCarousel {
+            .largeSearchContainer {
+                h2 {
+                    font-size: 30px !important;
+                }
+
+                #searchForm {
+                    input {
+                        font-size: 12px !important;
+                        padding: 10px 95px 10px 10px !important;
+                    }
+
+                    button {
+                        font-size: 12px !important;
+                        font-weight: 500 !important;
+                        padding: 0 12px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+
+    .main-header .outer-box {
+        padding: 0px 30px;
+    }
+
+    .main-header .nav-right li.btn-box {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .main-menu,
+    .sticky-header {
+        display: none !important;
+    }
+
+    .menu-area .mobile-nav-toggler {
+        display: block;
+        padding: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .main-menu .navigation>li>ul,
+    .main-menu .navigation>li>ul>li>ul {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    .main-header .outer-box {
+        display: block;
+    }
+
+    .main-header .logo-box .logo {
+        margin: 0 auto;
+    }
+
+    .main-header .nav-right {
+        position: absolute;
+        left: 20px;
+        bottom: -2px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    .main-header .outer-box {
+        padding: 0px 15px;
+    }
+
+    .main-header .search-box-outer .dropdown-menu {
+        left: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width: 499px) {
+
+    .mobile-menu {
+        width: 100%;
+    }
+
+    .main-header .search-box-outer .dropdown-menu {
+        width: 280px;
+    }
+}

@@ -1,0 +1,112 @@
+@keyframes anim5 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#promotion1 {
+    #promo_popup {
+        #newsHeading {
+            color: $color-b;
+            text-shadow: $text_shadow-1;
+        }
+
+        #emailId {
+            padding: 8px;
+            width: min(100%, 400px);
+            margin: auto;
+            margin: 20px auto;
+            border-radius: 4px;
+            border: 1px solid $color-4;
+            outline: none;
+            font-size: 0.8rem;
+        }
+
+        .button-container {
+            .submitId {
+                margin: auto;
+                text-align: center;
+                width: min(100%, 250px);
+                // outline: none;
+                // box-shadow: none;
+                // border: none;
+                // background: $color-1;
+                // padding: 8px 5px;
+                // border-radius: 5px;
+                // text-shadow: $text_shadow-1;
+                // box-shadow: $shadow-3;
+                // font-weight: 600;
+                // color: $color-2;
+            }
+        }
+
+        .close {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            z-index: 5;
+            padding: 0;
+            margin: 0;
+            background: transparent;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .logo-box {
+            padding: 10px 0;
+            display: inline-block;
+
+            a {
+                font-size: 25px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-shadow: $text_shadow-1;
+
+                b {
+                    background-color: $color-1;
+                    width: 35px;
+                    border-radius: 50px;
+                    height: 35px;
+                    align-self: center;
+                }
+            }
+        }
+
+        .coupon-row {
+            display: flex;
+            align-items: center;
+            margin: 25px auto;
+            width: fit-content;
+
+            #cpnCode {
+                border: 1.5px dashed $color-2;
+                padding: 10px 20px;
+                border-right: 0;
+
+            }
+
+            #cpnBtn {
+                border: 1.5px solid $color-2;
+                background: $color-w;
+                padding: 10px 20px;
+                color: $color-2;
+                cursor: pointer;
+            }
+        }
+    }
+}

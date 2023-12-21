@@ -1,0 +1,144 @@
+.event-category-name {
+    padding: 15px 15px;
+    border: 1px solid $color-2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: $color-4;
+    h3 {
+        margin: 0;
+        color: $color-2;
+        text-shadow: $text_shadow-1;
+    }
+}
+
+.event-booking-details {
+    border: 1px solid $color-2;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .event-booking-card {
+        // padding: 15px 5px;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-2;
+        }
+        >div {
+            padding: 0 0.5rem;
+            &:first-child,
+            &:last-child {
+                padding: 0;
+            }
+        }
+        .event-date-time {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 2px;
+            .event-date {
+                font-family: $font-1;
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+            .event-time {
+                font-size: 12px;
+            }
+        }
+        .event-name-venue {
+            .event-name {
+                font-family: $font-1;
+                font-size: 15px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+            .event-venue {
+                font-weight: 500;
+                font-size: 15px;
+            }
+            @media screen and (max-width:600px) {
+                margin-bottom: 10px;
+            }
+        }
+        .event-seat-select-quantity {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            h5 {
+                font-size: 15px;
+                font-weight: 600;
+                color: $color-b;
+                // margin-bottom: 0;
+            }
+            select {
+                width: min(100%, 160px);
+                height: 40px;
+                border: 1px solid $color-2;
+                &:focus-visible,
+                &:focus,
+                &:active {
+                    border: 1px solid $color-2;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.guaranteePanel {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+    position: relative;
+    border: 1px solid $color-2;
+    padding: 5px;
+    border-radius: 4px;
+    .img-box {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .text-container {
+        width: 100%;
+        border-bottom: 1px solid $color-2;
+        padding: 0 10px 15px;
+        h3 {
+            font-family: $font-1;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+        }
+    }
+    .white-box-content {
+        padding: 5px 10px 15px;
+        p {
+            font-size: 13px;
+            margin-bottom: 0.6rem;
+            i {
+                font-size: 14px;
+            }
+        }
+        ul {
+            padding-left: 10px;
+            margin-bottom: 0;
+            li {
+                list-style: "✔";
+                padding-left: 8px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.category-page-container {
+    .trend-card-name {
+        // top: -70px !important;
+        // left: 50% !important;
+        // transform: translateX(-50%);
+        // padding: 0 !important;
+        text-align: center !important;
+    }
+}

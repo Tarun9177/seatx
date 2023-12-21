@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Seatx.co</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl/owl.theme.default.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="inner-pages ticket-quantity-page">
+
+    <!-- Select Number of Tickets Modal -->
+    <div class="select-seats-popup modal fade" id="select-ticket-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" id="s_seat_popup">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="details-block">
+                                <h4 class="block_name">How Many Seats?</h4>
+                                <div class="ticket-quantity">
+                                    <select name="st-num" id="st-num">
+                                        <option value="any">Any</option>
+                                        <option value="1">1 Ticket</option>
+                                        <option value="2">2 Tickets</option>
+                                        <option value="3">3 Tickets</option>
+                                        <option value="4">4 Tickets</option>
+                                        <option value="5">5 Tickets</option>
+                                        <option value="6">6 Tickets</option>
+                                        <option value="7">7 Tickets</option>
+                                        <option value="8">8 Tickets</option>
+                                        <option value="9">9 Tickets</option>
+                                        <option value="10">10 Seats</option>
+                                    </select>
+                                </div>
+                                <div class="btn-checkout-box">
+                                    <button class="btn-1" data-bs-dismiss="modal">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header">
+        <nav class="nav" id="mainNav">
+            <i class="bi bi-list navOpenBtn" id="navOpenBtn"></i>
+            <div class="logo">
+                <a href="index.html"><img src="./assets/img/logo/logo_color.jpg" alt="Logo" class="img-fluid"></a>
+            </div>
+
+            <div class="left-box">
+                <ul class="nav-links">
+                    <i class="bi bi-x navClosebtn" id="navClosebtn"></i>
+                    <li class="dropdown">
+                        <a href="#">Sports</a><i class="bi bi-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>MNB</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>LBA</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>NFL</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Concerts</a><i class="bi bi-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>MNB</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>LBA</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>Rugby</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Theater</a><i class="bi bi-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>MNB</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>LBA</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>Rugby</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Festivals</a><i class="bi bi-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>MNB</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>LBA</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>Rugby</span></a><i class="bi bi-chevron-right"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li><a href="#"><span>Chicago Cubs</span></a></li>
+                                    <li><a href="#"><span>Atlanta Braves</span></a></li>
+                                    <li><a href="#"><span>Colorado Rockies</span></a></li>
+                                    <li><a href="#"><span>Detroit Tigers</span></a></li>
+                                    <li class="view_all-cta"><a href="./sport-category-page.html">View All</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sm-view">
+                        <a href="https://www.ticketnetwork.com/sell-tickets" target="_blank">Sell Tickets</a>
+                    </li>
+                    <li class="sm-view">
+                        <a href="#">My Tickets</a>
+                    </li>
+                    <li class="sm-view">
+                        <div class="login-btn-box">
+                            <a href="./login-page.html" class="login-btn">Sign in <i
+                                    class="bi bi-box-arrow-in-right"></i></a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="search-box-container">
+                    <i class="bi bi-search search-icon" id="searchIcon"></i>
+                    <form class="search-box searchForm">
+                        <input type="text" name="search_word" placeholder="Search by event, artist or team">
+                        <button type="submit" class="search-icon-btn-outer">
+                            <i class="bi bi-search search-icon searchBtn"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="right-box">
+                <!-- <ul class="nav-links-2">
+                <i class="bi bi-x navClosebtn" id="navClosebtn"></i>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">My Tickets</a></li>
+            </ul> -->
+                <!-- <a href="https://www.ticketnetwork.com/sell-tickets" target="_blank">Sell Tickets</a>
+            <a href="#">My Tickets</a>
+            <div class="login-btn-box">
+                <a href="login-btn">Sign in &nbsp;<i class="bi bi-person-circle"></i></a>
+            </div> -->
+                <ul class="nav-links-2">
+                    <li class="dropdown">
+                        <a href="#" class="profile-link">Profile <i
+                                class="bi bi-person-lines-fill profile-icon"></i></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://www.ticketnetwork.com/sell-tickets" target="_blank"><span>Sell
+                                        Tickets</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>My Tickets</span></a>
+                            </li>
+                            <li>
+                                <div class="login-btn-box">
+                                    <a href="./login-page.html" class="login-btn">Sign in <i
+                                            class="bi bi-box-arrow-in-right"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section [Start]======= -->
+    <section id="hero">
+        <div class="container-fluid p-0 text-left myTicket-details" data-aos="fade-up">
+            <div class="event-booking-details">
+                <div class="col-xl-9 m-auto">
+                    <div class="row event-booking-card align-items-center">
+                        <div class="col-xl-1 col-lg-2 col-md-2 order-md-1 col-12 mb-lg-0 mb-3 pe-md-2 p-0">
+                            <div class="event-img-box">
+                                <img src="./assets/img/catagory/sports.jpg" class="img-fluid rounded-1" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-8 order-lg-2 order-md-3 order-2 p-0">
+                            <div class="event-date-time text-left">
+                                <h5 class="event-date">Sep 2, 2023</h5>
+                                <small class="event-time">Sat TBD</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-10 col-12 order-md-2 order-1 mb-lg-0 mb-md-3 mb-0 p-0">
+                            <div class="event-name-venue text-left">
+                                <h5 class="event-name">
+                                    <a href="#">
+                                        <span class="event-name-text">NASCAR Whelen Modified Series</span>
+                                    </a>
+                                </h5>
+                                <div class="event-venue">
+                                    <span class="venue-name">Oswego Speedway</span> -
+                                    <span>
+                                        <span class="event-city">Oswego</span>,<span class="event-state">NY</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero [End]-->
+
+    <main id="main">
+
+        <!-- Search Results Box [Start] -->
+        <section class="section-searchbox">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 m-auto text-center">
+                        <h2>Search Results for <span class="search-text"></span></h2>
+                    </div>
+                </div>
+                <div class="row mt-5 row-gap-4">
+                    <div class="col-lg-3 col-md-4 col-12 order-2 order-md-1">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <div id="guaranteePanel" class="guaranteePanel">
+                                    <div class="img-box">
+                                        <img class="guarantee-image" src="./assets/img/icon/guarantee.png">
+                                    </div>
+                                    <div class="text-container">
+                                        <h3 class="guarantee-color">100% Money-Back Guarantee</h3>
+                                    </div>
+                                    <div class="white-box-content">
+                                        <p>All Tickets are backed by a 100% Guarantee.</p>
+                                        <ul>
+                                            <li>Your tickets will arrive before the event.</li>
+                                            <li>Your tickets will be valid for entry.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-12 order-1 order-md-2">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="event-category-name">
+                                    <h3>Events List</h3>
+                                </div>
+                                <div class="event-booking-details search-eventListBox">
+                                    <!-- Search Content -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Search Results Box [End] -->
+
+        <!-- ======= Category Section [Start]======= -->
+        <section class="section-box ticket-page-container">
+            <div class="container-fluid px-3">
+                <div class="row section-main-row">
+                    <div class="col-xl-3 col-lg-3 col-md-2 order-2 order-md-1 left-filter-col">
+                        <div class="filter-reset-box mb-3">
+                            <button class="btn-1 w-100">Reset</button>
+                        </div>
+                        <div class="filter-container">
+                            <div class="accordion" id="filters">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tickets-count" aria-expanded="true" aria-controls="tickets-count">
+                                            Number of seats
+                                        </button>
+                                    </h2>
+                                    <div id="tickets-count" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="seat-select-quantity-box">
+                                                <select name="seat-quant" id="seat-quant">
+                                                    <option value="any">Any</option>
+                                                    <option value="1">1 Ticket</option>
+                                                    <option value="2">2 Tickets</option>
+                                                    <option value="3">3 Tickets</option>
+                                                    <option value="4">4 Tickets</option>
+                                                    <option value="5">5 Tickets</option>
+                                                    <option value="6">6 Tickets</option>
+                                                    <option value="7">7 Tickets</option>
+                                                    <option value="8">8 Tickets</option>
+                                                    <option value="9">9 Tickets</option>
+                                                    <option value="10">10 Seats</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#price-range" aria-expanded="true" aria-controls="price-range">
+                                            Price Range
+                                        </button>
+                                    </h2>
+                                    <div id="price-range" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="min-max-slider" data-legendnum="2">
+                                                <label for="min">Minimum price</label>
+                                                <input id="min" class="min" name="min" type="range" step="1" min="0" max="3000" />
+                                                <label for="max">Maximum price</label>
+                                                <input id="max" class="max" name="max" type="range" step="1" min="0" max="3000" />
+                                            </div>
+                                            <div class="rtts-body mt-3">
+                                                <div class="toggle-checkbox">
+                                                    <p>Recommended tickets <small><i class="bi bi-info-circle" data-bs-toggle="tooltip" data-bs-title="Suggested tickets are chosen based on section, row, extra features, restrictions, and lowest price for the selected quantity"></i></small></p>
+                                                    <label class="switch" for="checkbox">
+                                                        <input type="checkbox" id="checkbox" />
+                                                        <div class="slider round"></div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#feature-box" aria-expanded="false" aria-controls="feature-box">
+                                            Features
+                                        </button>
+                                    </h2>
+                                    <div id="feature-box" class="accordion-collapse collapse feature-box-container" data-bs-parent="#filters">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <p>Front row of section</p>
+                                                            <label class="switch" for="front-row">
+                                                                <input type="checkbox" name="front-row" id="front-row" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <p>Middle row of section</p>
+                                                            <label class="switch" for="middle-row">
+                                                                <input type="checkbox" name="middle-row" id="middle-row" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <p>Back row of section</p>
+                                                            <label class="switch" for="back-row">
+                                                                <input type="checkbox" name="back-row" id="back-row" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-flex">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <p>Aisle seat</p>
+                                                            <label class="switch" for="aisle-seat">
+                                                                <input type="checkbox" name="aisle-seat" id="aisle-seat" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#zone-select" aria-expanded="false" aria-controls="zone-select">
+                                            Zones
+                                        </button>
+                                    </h2>
+                                    <div id="zone-select" class="accordion-collapse collapse" data-bs-parent="#filters">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <div class="label-content">
+                                                                <p>Grandstand</p>
+                                                                <small>33 listings</small>
+                                                            </div>
+                                                            <label class="switch" for="zone-1">
+                                                                <input type="checkbox" name="zone-1" id="zone-1" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <div class="label-content">
+                                                                <p>Baseline Box</p>
+                                                                <small>38 listings</small>
+                                                            </div>
+                                                            <label class="switch" for="zone-2">
+                                                                <input type="checkbox" name="zone-2" id="zone-2" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex row-selection-box">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <div class="label-content">
+                                                                <p>Infield Box</p>
+                                                                <small>38 listings</small>
+                                                            </div>
+                                                            <label class="switch" for="zone-3">
+                                                                <input type="checkbox" name="zone-3" id="zone-3" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-2">
+                                                    <div class="d-flex">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <div class="label-content">
+                                                                <p>Infield Reserve</p>
+                                                                <small>38 listings</small>
+                                                            </div>
+                                                            <label class="switch" for="zone-4">
+                                                                <input type="checkbox" name="zone-4" id="zone-4" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-flex">
+                                                        <div class="icon-box"></div>
+                                                        <div class="toggle-checkbox">
+                                                            <div class="label-content">
+                                                                <p>Left Field Bleacher</p>
+                                                                <small>38 listings</small>
+                                                            </div>
+                                                            <label class="switch" for="zone-5">
+                                                                <input type="checkbox" name="zone-5" id="zone-5" />
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seat-mapop" aria-expanded="false" aria-controls="seat-mapop">
+                                            Seat Map Options
+                                        </button>
+                                    </h2>
+                                    <div id="seat-mapop" class="accordion-collapse collapse" data-bs-parent="#filters">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <label class="form-check-label" for="seat-mapopt1">
+                                                    Select by Sections
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="seat-mapopt" id="seat-mapopt1" checked>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label" for="seat-mapopt2">
+                                                    Default checked radio
+                                                </label>
+                                                <input class="form-check-input" type="radio" name="seat-mapopt" id="seat-mapopt2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#multi-selection" aria-expanded="false" aria-controls="multi-selection">
+                                            Allow Multi-Selection
+                                        </button>
+                                    </h2>
+                                    <div id="multi-selection" class="accordion-collapse collapse" data-bs-parent="#filters">
+                                        <div class="accordion-body">
+                                            <div class="toggle-checkbox">
+                                                <p>Allow multi selection on map</p>
+                                                <label class="switch" for="allow-multi-sec">
+                                                    <input type="checkbox" id="allow-multi-sec" />
+                                                    <div class="slider round"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price-dop" aria-expanded="false" aria-controls="price-dop">
+                                            Price Display Options
+                                        </button>
+                                    </h2>
+                                    <div id="price-dop" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="toggle-checkbox">
+                                                <p>Include estimated fees</p>
+                                                <label class="switch" for="price-dop-switch">
+                                                    <input type="checkbox" id="price-dop-switch" />
+                                                    <div class="slider round"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-5 col-md-6 order-1 order-md-2">
+                        <div class="map-container">
+                            <img src="./assets/img/map2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 order-3 right-col-box">
+                        <div class="seats-select-container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="ticket-sort-box">
+                                        <select name="sortby" id="sortby">
+                                            <option>Sort By</option>
+                                            <option value="lth">Price - Low to High</option>
+                                            <option value="htl">Price - High to Low</option>
+                                            <option value="sas">Section - Ascending</option>
+                                            <option value="sds">Section - Descending</option>
+                                            <option value="ras">Row - Ascending</option>
+                                            <option value="rds">Row - Descending</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 seat-area-container">
+                                    <div class="row seat-quantity-block">
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="seat-view-block">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-6 col-md-5 col-12 order-1">
+                                                        <div class="details-block">
+                                                            <h6 class="block_name">General Admission Lawn</h6>
+                                                            <p class="block-row">Row GA</p>
+                                                            <p>5 Tickets</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4 col-8 order-2">
+                                                        <div class="ticket-details d-flex justify-content-between">
+                                                            <button class="all-ticket-details" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                                <i class="bi bi-file-earmark-text"
+                                                                    data-bs-toggle="tooltip"
+                                                                    data-bs-title="Ticket Details"></i>
+                                                            </button>
+                                                            <div class="price-details">
+                                                                <b>US$ 37/ea</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-4 order-3">
+                                                        <buttuon onclick='gotoctp()' class="buy-btn btn-1">Buy</buttuon>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======= Category Section [End]======= -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Seat x</h3>
+            <div class="copyright">9 &copy; 2023 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- Modal -->
+    <div class="ticket-details-popup modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="details-block">
+                                <h6 class="block_name">General Admission Lawn</h6>
+                                <p class="block-row">Row GA</p>
+                                <hr class="separater" />
+                                <div class="price-selecter">
+                                    <div class="ticket-price">
+                                        <div class="total-price">
+                                            <b>Total Price</b>
+                                            <small>(No Tax Included)</small>
+                                            <h4>US$ 37</h4>
+                                        </div>
+                                        <div class="per-ticket-cost">
+                                            <p>US$ 37/ each</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="ticket-quantity ">
+                                        <small>Qunatity</small>
+                                        <select name="q-ticket" id="q-ticket">
+                                            <option value="1">1 Ticket</option>
+                                            <option value="2">2 Tickets</option>
+                                            <option value="3">3 Tickets</option>
+                                            <option value="4">4 Tickets</option>
+                                            <option value="5">5 Tickets</option>
+                                            <option value="6">6 Tickets</option>
+                                            <option value="7">7 Tickets</option>
+                                            <option value="8">8 Tickets</option>
+                                            <option value="9">9 Tickets</option>
+                                            <option value="10">10 Seats</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="btn-checkout-box">
+                                    <button onclick='gotoctp()' class="btn-1">Go To Secure Checkout</button>
+                                </div>
+                                <hr class="separater" />
+                                <div class="delevery-methods-block">
+                                    <h5>Delivery Method</h5>
+                                    <ul>
+                                        <li>
+                                            <i class="bi bi-phone"></i> Mobile Ticket <br /> <small>(Mobile entry
+                                                tickets must have smart device on hand to enter event.)</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr class="separater" />
+                                <div class="imp-note-container">
+                                    <h5>Important: Zone Seating</h5>
+                                    <p>The tickets you receive may be in the specific section listed here or in an equivalent or better location. This listing describes tickets that the seller does not own or may not know the exact location of the seats,
+                                        but is offering to obtain for you. Once your order is confirmed, we guarantee that you will receive tickets prior to the start of the event for seats that are in an equivalent or better location or you will receive
+                                        a full refund.</p>
+                                </div>
+                                <hr class="separater" />
+                                <div class="additional-note-box">
+                                    <h5>Additional Notes :</h5>
+                                    <ul>
+                                        <li>Tickets will be ready for delivery by Mar 28, 2024.</li>
+                                        <li>Your seats are together unless otherwise noted.</li>
+                                        <li>100% Worry-Free Guarantee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/owl/owl.carousel.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/searchEvent.js"></script>
+    <script src="assets/js/range.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            // if (!sessionStorage.getItem('modal')) {
+            const modal = new bootstrap.Modal(
+                document.querySelector('#select-ticket-modal')
+            )
+            modal.show();
+            // }
+        });
+
+        const gotoctp = () => {
+            location.href = './confirm-ticket-page.html'
+        }
+    </script>
+</body>
+
+</html>
