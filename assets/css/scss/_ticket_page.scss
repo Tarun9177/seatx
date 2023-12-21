@@ -276,8 +276,20 @@
 }
 
 .left-filter-col {
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1400px) {
         width: min(100%, 350px);
+    }
+    @media screen and (min-width: 1300px) {
+        width: min(100%, 320px);
+    }
+    @media screen and (min-width: 1100px) {
+        width: min(100%, 300px);
+    }
+}
+
+.right-filter-col {
+    @media screen and (min-width: 1100px) and (max-width:1300px) {
+        width: min(100%, 300px);
     }
 }
 

@@ -2578,9 +2578,25 @@ h6 {
   font-weight: 600;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .left-filter-col {
     width: min(100%, 350px);
+  }
+}
+@media screen and (min-width: 1300px) {
+  .left-filter-col {
+    width: min(100%, 320px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .left-filter-col {
+    width: min(100%, 300px);
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+  .right-filter-col {
+    width: min(100%, 300px);
   }
 }
 
